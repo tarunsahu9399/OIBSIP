@@ -1,0 +1,38 @@
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="myStyles.css">
+  <title>To-Do List</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="toDoList">
+      <h1><span>To-Do </span>List</h1>
+      <div class="top-box">
+        <input type="text" id="taskInput" placeholder="Enter a task">
+        <button onclick="addTask()">Add Task</button>
+      </div>
+      <div class="grid-container">
+        <div class="bottom-box-left">
+          <h2 id="tasks">Pending Tasks</h2>
+          <div id="list"><ul id="pendingList"></ul></div>
+        </div>
+        <div class="bottom-box-right">
+          <h2 id="tasks">Completed Tasks</h2>
+          <div id="list"><ul id="completedList"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="myScript.js"></script>
+  
+</body>
+
+</html>

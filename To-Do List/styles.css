@@ -1,0 +1,50 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: 0;
+  transition: all 0.5s ease;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color:#bde0fe;
+}
+
+input[type="text"] {
+  padding: 5px;
+  font-size: 16px;
+  width: 500px;
+  background-color: white;
+}
+
+Button {
+  padding: 5px 5px;
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  color: #000000;
+  font-size: 1.5rem;
+}
+
+li.completed {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.5rem;
+}
+
+li .delete {
+  color: red;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+li .edit {
+  color: blue;
+  cursor: pointer;
+  margin-left: 10px;
+}
